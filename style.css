@@ -1,0 +1,48 @@
+header{
+    width: 1250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+header h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+header ul{
+    display: flex;
+    
+}
+ header ul li{
+  list-style: none;
+   margin-left: 1.8rem;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+main{
+    width: 1250px;
+    margin: auto;
+}
+.camera{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) { 
+    header{
+        flex-direction: column;
+    }
+ }
+ @media  {
+    
+ }
